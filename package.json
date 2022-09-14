@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "vitepress": "npm:@brc-dd/vitepress@1.0.0-dev.ad8a368"
+    "vitepress": "npm:@brc-dd/vitepress@1.0.0-dev.ad8a368",
+    "vue": "^3.2.39"
   }
 }

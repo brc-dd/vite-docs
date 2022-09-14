@@ -1,19 +1,30 @@
-import { h } from 'vue'
-import Theme from 'vitepress/theme'
-import './styles/vars.css'
-import HomeSponsors from './components/HomeSponsors.vue'
+import { h, watchEffect } from 'vue'
+import { Theme, useData } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
 import AsideSponsors from './components/AsideSponsors.vue'
+import HomeSponsors from './components/HomeSponsors.vue'
 import SvgImage from './components/SvgImage.vue'
+import './styles/vars.css'
 
-export default {
-  ...Theme,
+const theme: Theme = {
+  ...DefaultTheme,
   Layout() {
-    return h(Theme.Layout, null, {
+    return h(DefaultTheme.Layout, null, {
       'home-features-after': () => h(HomeSponsors),
       'aside-ads-before': () => h(AsideSponsors)
     })
   },
   enhanceApp({ app }) {
     app.component('SvgImage', SvgImage)
+  },
+  setup() {
+    const { lang } = useData()
+    watchEffect(() => {
+      if (typeof document !== 'undefined') {
+        document.cookie = `nf_lang=${lang.value}; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/`
+      }
+    })
   }
 }
+
+export default theme
