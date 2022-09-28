@@ -243,12 +243,10 @@ export const esConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       ]
     },
 
-    translations: {
-      outlineTitle: 'En esta página',
-      docFooter: {
-        prev: 'Página anterior',
-        next: 'Próxima página'
-      }
+    outlineTitle: 'En esta página',
+    docFooter: {
+      prev: 'Página anterior',
+      next: 'Próxima página'
     }
   }
 }

@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  vitepress: npm:@brc-dd/vitepress@1.0.0-dev.ad8a368
+  vitepress: npm:@brc-dd/vitepress@1.0.0-dev.4d35ae5
   vue: ^3.2.39
 
 devDependencies:
-  vitepress: /@brc-dd/vitepress/1.0.0-dev.ad8a368
+  vitepress: /@brc-dd/vitepress/1.0.0-dev.4d35ae5
   vue: 3.2.39
 
 packages:
@@ -147,8 +147,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@brc-dd/vitepress/1.0.0-dev.ad8a368:
-    resolution: {integrity: sha512-x1s5R50JiVCSn+7TCslaiWaufU+HB9+8EshfVB8P6Xgx8+L9zZg9fAWSIqDCqeIlmilQFItUrJSVL/3SPfPqMg==}
+  /@brc-dd/vitepress/1.0.0-dev.4d35ae5:
+    resolution: {integrity: sha512-kbaKmAl6L8dsS/o2RpxGvwIePbbG+7KF15dKGw+MWhtDNeKW5pJdNQ0CuIYmn0fErZrfhK3Dqawt71ScDoKHDA==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.2.1
