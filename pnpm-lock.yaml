@@ -5,7 +5,7 @@ specifiers:
   vue: latest
 
 devDependencies:
-  vitepress: /@brc-dd/vitepress/1.0.0-dev.3d0ce5d
+  vitepress: /@brc-dd/vitepress/1.0.0-dev.12c9a1f
   vue: 3.2.45
 
 packages:
@@ -147,8 +147,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@brc-dd/vitepress/1.0.0-dev.3d0ce5d:
-    resolution: {integrity: sha512-j6At6E7O4CkANA3J0P/Jli1UX/gT3XjmyJs/d00e8QyWGQg5Tz/evxEi+4a5Z5d0K54Oh/i6VXAmTnPJsJxlWQ==}
+  /@brc-dd/vitepress/1.0.0-dev.12c9a1f:
+    resolution: {integrity: sha512-eI2I2R0hjpBNJgmR4ixkzZ+wnmf3ceBY7bKTF4YUfc8G48JV9Ik4OlsKOtGptHgrxoJx6ds3ZSLv2Q6enB115g==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.2
