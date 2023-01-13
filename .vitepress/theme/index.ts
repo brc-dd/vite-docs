@@ -21,7 +21,7 @@ const theme: Theme = {
     const { lang } = useData()
     watchEffect(() => {
       if (typeof document !== 'undefined') {
-        document.cookie = `nf_lang=${lang.value}; expires=Sun, 1 Jan 2023 00:00:00 UTC; path=/`
+        document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2024 00:00:00 UTC; path=/`
       }
     })
   }
